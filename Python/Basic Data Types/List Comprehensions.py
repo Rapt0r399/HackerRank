@@ -1,0 +1,10 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+x = raw_input()
+y = raw_input()
+z = raw_input()
+n = raw_input()
+x = int(x)
+y = int(y)
+z = int(z)
+n = int(n)
+print ([[a,b,c] for a in range(0,x+1) for b in range(0,y+1) for c in range(0,z+1) if a + b + c != n ])
